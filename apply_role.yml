@@ -1,0 +1,7 @@
+---
+- name: applying roles
+  hosts: patch
+  become: true
+  roles: 
+    - base
+      
